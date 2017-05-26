@@ -11,6 +11,12 @@ and open the template in the editor.
     </head>
     <body>
         <style>
+    .centrado{
+    position: relative;
+    top: 200px;
+    left: 580px;
+    }
+    
     #cuadro{
     border: 4px solid powderblue;
     font-size: 20px;
@@ -25,8 +31,8 @@ and open the template in the editor.
         </style>
     
         <form>
-            <input type="text" id="cuadro"> <br>
-            <input type="button" value="JUGAR" id="boton">
+            <input type="text" id="cuadro" class="centrado" > <br>
+            <input type="button" value="JUGAR" class="centrado" id="boton">
                 
         
         </form>
