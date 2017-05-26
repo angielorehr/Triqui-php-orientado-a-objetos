@@ -1,1 +1,0 @@
-# Triqui-php-orientado-a-objetos
